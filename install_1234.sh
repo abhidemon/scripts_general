@@ -42,8 +42,8 @@ echo "\n\n\tInstallation complete, thank you!!! \n\t Checking For Java..."
 sleep 1
 
 which java ; if [[ $? != 0 ]] ;  then
-	echo "\n\t Going ahead with installing jdk-> http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html " &&
-	python -mwebbrowser  http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+	echo "\n\t Going ahead with installing jdk-> http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html " &&
+	python -mwebbrowser  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 else
 	echo "\t Java is present. Enjoy!!"
 fi
