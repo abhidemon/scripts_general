@@ -38,7 +38,7 @@ else
 fi
 
 sleep 1
-echo "\n\n\tInstallation complete, thank you!!!"
+echo "\n\n\tInstallation complete, thank you!!! \n\t Checking For Java..."
 sleep 1
 
 which java ; if [[ $? != 0 ]] ;  then
